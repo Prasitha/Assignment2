@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bloodbank (bank+)>
+<!ELEMENT bank (location,name,phone,email)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST donor sno ID #REQUIRED>

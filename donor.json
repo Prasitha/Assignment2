@@ -1,0 +1,34 @@
+{
+  "bloodbank": {
+    "donor": [
+      {
+        "@did": "2015",
+        "name": "Raj",
+        "bg": "A+ve",
+        "phone": " 9845612475 ",
+        "location": " Chennai "
+      },
+      {
+        "@did": "2016",
+        "name": "Sankar",
+        "bg": "B+ve",
+        "phone": " 9456123748 ",
+        "location": " Madurai "
+      },
+      {
+        "@did": "2017",
+        "name": "Divya",
+        "bg": "O+ve",
+        "phone": " 9847512364 ",
+        "location": " Coimbatore "
+      },
+      {
+        "@did": "2018",
+        "name": "Priya",
+        "bg": "AB+ve",
+        "phone": " 98236547156 ",
+        "location": " Salem "
+      }
+    ]
+  }
+}

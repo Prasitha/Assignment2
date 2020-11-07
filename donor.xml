@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bloodbank>
+<donor did="2015">
+  <name>Raj</name>
+  <bg>A+ve</bg>
+  <phone> 9845612475 </phone>
+  <location> Chennai </location>
+</donor>
+<donor did="2016">
+  <name>Sankar</name>
+  <bg>B+ve</bg>
+  <phone> 9456123748 </phone>
+  <location> Madurai </location>
+</donor>
+<donor did="2017">
+  <name>Divya</name>
+  <bg>O+ve</bg>
+  <phone> 9847512364 </phone>
+  <location> Coimbatore </location>
+</donor>
+<donor did="2018">
+  <name>Priya</name>
+  <bg>AB+ve</bg>
+  <phone> 98236547156 </phone>
+  <location> Salem </location>
+</donor>
+</bloodbank>

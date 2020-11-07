@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="bloodbank.xsl" type="text/xsl" ?>
+<bloodbank>
+<bank sno="B1">
+  <location>Ariyalur </location>
+  <name>Government Head Quarters Hospital, Ariyalur </name>
+  <phone>04329 - 224050 </phone>
+  <email>bloodbankariyalur@gmail.com </email>
+</bank>
+<bank sno="B2">
+  <location>Chennai</location>
+  <name>Madras Medical College,Kilpauk</name>
+  <phone>044 -25547856 </phone>
+  <email>mmckilpauk@gmail.com </email>
+</bank>
+<bank sno="B3">
+  <location>Madurai</location>
+  <name>Madurai Medical College,Madurai</name>
+  <phone>0425 - 26987453</phone>
+  <email>mmcmadurai@gmail.com </email>
+</bank>
+<bank sno="B4">
+  <location>Coimbatore</location>
+  <name>Government Head Quarters Hospital,Coimbatore </name>
+  <phone>0459 - 25478693</phone>
+  <email>bloodbankcoimbatore@gmail.com </email>
+</bank>
+</bloodbank>

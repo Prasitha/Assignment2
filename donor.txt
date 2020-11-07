@@ -1,0 +1,8 @@
+{
+"donor": [
+      { "name": "Raj","bg": "A+ve","phone": " 9845612475 ","location": " Chennai "},
+      { "name": "Sankar","bg": "B+ve","phone": " 9456123748 ","location": " Madurai "},
+      { "name": "Divya","bg": "O+ve","phone": " 9847512364 ","location": " Coimbatore "},
+      { "name": "Priya","bg": "AB+ve","phone": " 98236547156 ","location": " Salem "}
+    ]
+}

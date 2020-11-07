@@ -1,0 +1,34 @@
+{
+  "bloodbank": {
+    "bank": [
+      {
+        "@sno": "B1",
+        "location": "Ariyalur ",
+        "name": "Government Head Quarters Hospital, Ariyalur ",
+        "phone": "04329 - 224050 ",
+        "email": "bloodbankariyalur@gmail.com "
+      },
+      {
+        "@sno": "B2",
+        "location": "Chennai",
+        "name": "Madras Medical College,Kilpauk",
+        "phone": "044 -25547856 ",
+        "email": "mmckilpauk@gmail.com "
+      },
+      {
+        "@sno": "B3",
+        "location": "Madurai",
+        "name": "Madurai Medical College,Madurai",
+        "phone": "0425 - 26987453",
+        "email": "mmcmadurai@gmail.com "
+      },
+      {
+        "@sno": "B4",
+        "location": "Coimbatore",
+        "name": "Government Head Quarters Hospital,Coimbatore ",
+        "phone": "0459 - 25478693",
+        "email": "bloodbankcoimbatore@gmail.com "
+      }
+    ]
+  }
+}

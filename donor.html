@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-image: url('bg.jpg');
+}
+body {
+  color: black;
+  background-color : black;
+}
+
+h1 {
+  color: green;
+}
+
+h5 {
+  color : red;
+}
+</style>
+</head>
+<body>
+<div>
+<h1> DOM example for donor file </h1>
+<h5>Name:</h5> <p id="demo"></p>
+<h5>Blood group:</h5> <p id ="demo1">Blood group:</p>
+<h5>Node name of first child of "donor"</h5> <p id="demo2"></p>
+<h5>Blood groups available: </h5> <p id = "demo3"></p>
+</div>
+
+<script>
+var text, parser, xmlDoc;
+var text1 = "";
+
+text = "<bloodbank><donor>" +
+  "<name>Raj</name>" +
+  "<bg>A+ve</bg>" +
+  "<phone> 9845612475 </phone>" + 
+  "<location> Chennai </location>" +
+"</donor>" + 
+"<donor>" +
+  "<name>Sankar</name>" +
+  "<bg>B+ve</bg>" +
+  "<phone> 9456123748 </phone>" +
+  "<location> Madurai </location>" +
+"</donor>" +
+"<donor>" +
+  "<name>Divya</name>"+
+  "<bg>O+ve</bg>" +
+  "<phone> 9847512364 </phone>" +
+  "<location> Coimbatore </location>" +
+"</donor>" +
+"<donor>" +
+  "<name>Priya</name>" +
+  "<bg>AB+ve</bg>" +
+  "<phone> 98236547156 </phone>" +
+  "<location> Salem </location>" +
+"</donor></bloodbank>";
+
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(text,"text/xml");
+
+document.getElementById("demo").innerHTML =
+xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+document.getElementById("demo1").innerHTML =
+xmlDoc.getElementsByTagName("bg")[0].childNodes[0].nodeValue;
+document.getElementById("demo2").innerHTML =
+xmlDoc.getElementsByTagName("donor")[0].childNodes[0].nodeName;
+text1 = text1 + xmlDoc.getElementsByTagName("bg")[0].childNodes[0].nodeValue + "<br>" +
+xmlDoc.getElementsByTagName("bg")[1].childNodes[0].nodeValue + "<br>" +
+xmlDoc.getElementsByTagName("bg")[2].childNodes[0].nodeValue + "<br>" +
+xmlDoc.getElementsByTagName("bg")[3].childNodes[0].nodeValue + "<br>" ;
+
+document.getElementById("demo3").innerHTML = text1;
+
+</script>
+
+</body>
+</html>
